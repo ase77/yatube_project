@@ -1,4 +1,4 @@
-from django.shortcuts import render
+#from django.shortcuts import render
 from django.http import HttpResponse
 
 
@@ -8,5 +8,5 @@ def index(request):
 def group_posts(request):
     return HttpResponse('Страницы сообществ')
 
-def group_posts_detail(request, num):
-    return HttpResponse(f'Страница сообщества {num}')
+def group_posts_detail(request, slug):
+    return HttpResponse(f'Страница сообщества {slug}')
