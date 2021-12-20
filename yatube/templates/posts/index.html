@@ -1,0 +1,5 @@
+{% extends 'base.html' %}
+
+{% block links %}
+<a href="{% url 'posts:group_posts' group.slug %}">все записи группы</a>
+{% endblock %}
