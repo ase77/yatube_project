@@ -1,9 +1,9 @@
-﻿# YATUBE
+# YATUBE
 
 ### Социальная сеть для публикации личных дневников
 
 ### Технологии 
-Python3, Django, SQLite3
+Python3, Django, SQLite3, PyTest
 
 ## Как запустить проект:
 
